@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>About</title>
     <link rel="icon" href="/img/weather.png">
@@ -9,13 +10,24 @@
 <body>
     <div class="main-content">
         {{>header}}
-        <p>This site is created by Nikhil Kumar Singh.It uses data from mapbox.com and darksky.net!</p>
-
-    <img class="portrait" src="/img/1166.jpg">    
+        <div class="data">
+            <img class="portrait" src="/img/Profile_pic.jpg">
+            <div class="profile_data">
+                <div class="github">
+                <a href="https://github.com/hi-nikhil">
+                    <img src='/img/github.png ' width='30px' />
+                </a>
+                </div>
+                <a href="https://linkedin.com/in/nikhil-singh-profile">
+                    <img src='/img/linkedIn.png' width='30px' />
+                </a>
+            </div>
+        </div>
+        <p>This site is created by Nikhil Kumar Singh.It uses data from Mapbox API & OpenWeatherMap.</p>
     </div>
-    
+
     {{>footer}}
-    
+
 </body>
 
 </html>

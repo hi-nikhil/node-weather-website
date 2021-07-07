@@ -26,22 +26,22 @@ app.use(express.static(publicDirectoryPath))
 app.get('/',(req,res)=>{
     res.render('index',{
         title:'Weather',
-        name: 'Ankit'
+        name: 'Nikhil'
     })
 })
 
 app.get('/about',(req,res)=>{
     res.render('about',{
-        title:'About me',
-        name: 'Ankit'
+        title:'About',
+        name: 'Nikhil'
     })
 })
 
 app.get('/help',(req,res)=>{
     res.render('help',{
         title:'Help',
-        message:'Ready to Help',
-        name :'Ankit'
+        message:'You can contact me on',
+        name :'Nikhil'
     })
 })
 app.get('/weather',(req,res) =>{
@@ -87,7 +87,7 @@ app.get('/products',(req,res) => {
 app.get('/help/*',(req,res) =>{
     res.render('404',{
         title:'404',
-        name:'Ankit',
+        name:'Nikhil',
         errorMessage:'Help article not found',
     })
 }) 

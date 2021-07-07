@@ -4,6 +4,7 @@ body{
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
+    /* background-color: yellowgreen; */
 
     display: flex;
     flex-direction: column;
@@ -17,8 +18,36 @@ body{
 footer{
     color: #888888;
     border-top: 1px solid #eeeeee;
-    margin-top: 16px;
     padding: 16px 0;
+}
+
+#Link{
+    text-decoration: none;
+    padding: auto;
+    /* margin:  50px; */
+}
+#Link:hover{
+    text-shadow: 0 0 5px rgb(104, 205, 252);
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.profile_data{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.github{
+    margin-right: 10px;
+}
+
+#link{
+    text-decoration: none;
 }
 
 header{

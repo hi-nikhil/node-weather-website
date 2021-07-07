@@ -10,6 +10,7 @@ const forecast=(longitude,latitude,callback) =>{
             callback('Unable to find location.Try another location!',undefined)
        }
        else{
+         
          callback(undefined,
           'It is ' + body.main.temp+' degrees out. '+ 'It is '+body.weather[0].description+' outside '+
           'The minimun temperature is '+  body.main.temp_min +' and the maximun temperature is '+ body.main.temp_max +' today.'
